@@ -16,4 +16,12 @@ $(document).ready(function () {
       .animate({ width: "40px", height: "40px" }, 800)
       .animate({ left: "0px", top: "0px", width: "80px", height: "80px" }, 800);
   });
+
+  $("#btnCombined").click(function () {
+    $("#box3").animate({ opacity: 0.3, width: "150px", height: "150px", left: "200px" }, 1500);
+  });
+
+  $("#btnCombinedReset").click(function () {
+    $("#box3").animate({ opacity: 1, width: "80px", height: "80px", left: "0px" }, 500);
+  });
 });
