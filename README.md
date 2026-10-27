@@ -40,8 +40,15 @@ WT_Assign6/
 ├── part5.html      Task 11
 ├── style.css       Styles for all pages
 ├── js/             One JavaScript file for each page
-└── images/         Pictures for Part 2 and Part 3
+└── images/         Pictures for Home, Part 2 and Part 3
 ```
+
+## Design
+
+The website uses soft colors: pink, burgundy, lavender, mint, sky blue, yellow and peach.
+Fonts are Quicksand and Pacifico from Google Fonts.
+Each task is in its own white card with a colored top line.
+Pictures are simple SVG drawings: a laptop with code, a flower, and a day and night picture.
 
 ## Tasks
 
@@ -62,7 +69,7 @@ Elements are selected by ID (`#title`), by class (`.info`) and by tag (`span`).
 A paragraph with three buttons: Hide, Show and Toggle. They use `.hide()`, `.show()` and `.toggle()`.
 
 **Task 3. Fade Methods**
-An image with three buttons. They use `.fadeIn()`, `.fadeOut()` and `.fadeToggle()`.
+A flower picture with three buttons. They use `.fadeIn()`, `.fadeOut()` and `.fadeToggle()`.
 
 **Task 4. Slide Methods**
 A panel that opens and closes with `.slideUp()`, `.slideDown()` and `.slideToggle()`.
@@ -76,7 +83,7 @@ A list with three buttons:
 - "Remove Item" removes the last item with `.remove()`
 
 **Task 6. Modifying Attributes**
-- "Change Image" button changes the `src` of the image with `.attr()`
+- "Change Image" button changes the picture from day to night and back. It changes the `src` with `.attr()`
 - "Change Link" button changes the `href` of the link with `.attr()`
 
 **Task 7. Form Interaction**
