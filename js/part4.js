@@ -8,4 +8,12 @@ $(document).ready(function () {
   $("#btnBasicReset").click(function () {
     $("#box1").animate({ width: "80px", height: "80px", left: "0px", top: "0px" }, 500);
   });
+
+  $("#btnSteps").click(function () {
+    $("#box2")
+      .animate({ left: "200px" }, 800)
+      .animate({ top: "100px" }, 800)
+      .animate({ width: "40px", height: "40px" }, 800)
+      .animate({ left: "0px", top: "0px", width: "80px", height: "80px" }, 800);
+  });
 });
