@@ -208,3 +208,44 @@ img {
 .tile:nth-child(5) {
   background: #fff1c1;
 }
+
+#panel {
+  margin-top: 12px;
+  padding: 16px;
+  border-radius: 14px;
+  background: var(--butter);
+  color: #6b4a1f;
+}
+
+#list {
+  padding-left: 0;
+  list-style: none;
+}
+
+#list li {
+  margin: 6px 0;
+  padding: 8px 14px;
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  background: var(--blush);
+}
+
+input {
+  width: 100%;
+  max-width: 320px;
+  padding: 10px 14px;
+  border: 2px solid var(--pink);
+  border-radius: 14px;
+  font-family: inherit;
+  outline: none;
+}
+
+input:focus {
+  border-color: var(--rose);
+}
+
+.output {
+  padding: 4px 16px;
+  border-radius: 14px;
+  background: #e6f7ef;
+}
