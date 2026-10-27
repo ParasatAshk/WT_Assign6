@@ -29,4 +29,12 @@ $(document).ready(function () {
     $("#myLink").attr("href", "https://api.jquery.com");
     $("#linkText").text($("#myLink").attr("href"));
   });
+
+  $("#name").on("input", function () {
+    $("#showName").text($(this).val());
+  });
+
+  $("#email").on("input", function () {
+    $("#showEmail").text($(this).val());
+  });
 });
