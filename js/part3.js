@@ -18,10 +18,10 @@ $(document).ready(function () {
   });
 
   $("#btnImg").click(function () {
-    if ($("#myImg").attr("src") === "images/photo1.svg") {
-      $("#myImg").attr("src", "images/photo2.svg");
+    if ($("#myImg").attr("src") === "images/day.svg") {
+      $("#myImg").attr("src", "images/night.svg");
     } else {
-      $("#myImg").attr("src", "images/photo1.svg");
+      $("#myImg").attr("src", "images/day.svg");
     }
   });
 
