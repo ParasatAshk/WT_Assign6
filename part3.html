@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 3 - DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="part1.html">Part 1</a>
+    <a href="part2.html">Part 2</a>
+    <a href="part3.html" class="active">Part 3</a>
+    <a href="part4.html">Part 4</a>
+    <a href="part5.html">Part 5</a>
+  </nav>
+  <main>
+    <section>
+      <h2>Task 5. Add and Remove Elements</h2>
+      <ul id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
+      <button id="btnAdd">Add Item</button>
+      <button id="btnAddTop">Add Item to Top</button>
+      <button id="btnRemove">Remove Item</button>
+    </section>
+    <section>
+      <h2>Task 6. Modifying Attributes</h2>
+      <button id="btnImg">Change Image</button>
+      <img id="myImg" src="images/photo1.svg" alt="Photo">
+      <br>
+      <a id="myLink" href="https://www.w3schools.com" target="_blank">Open link</a>
+      <p>Link goes to: <span id="linkText">https://www.w3schools.com</span></p>
+      <button id="btnLink">Change Link</button>
+    </section>
+    <section>
+      <h2>Task 7. Form Interaction</h2>
+      <form>
+        <p><input type="text" id="name" placeholder="Name"></p>
+        <p><input type="email" id="email" placeholder="Email"></p>
+      </form>
+      <p>Name: <span id="showName"></span></p>
+      <p>Email: <span id="showEmail"></span></p>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/part3.js"></script>
+</body>
+</html>
