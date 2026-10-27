@@ -38,3 +38,15 @@ button {
   margin: 4px 4px 4px 0;
   cursor: pointer;
 }
+
+img {
+  display: block;
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+#panel {
+  background: #e0f0ff;
+  padding: 15px;
+  margin-top: 10px;
+}
