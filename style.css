@@ -278,3 +278,38 @@ input:focus {
 #box3 {
   background: linear-gradient(135deg, var(--mint), var(--sky));
 }
+
+.acc-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: var(--blush);
+  color: var(--burgundy);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.acc-header::after {
+  content: "+";
+  font-size: 20px;
+  line-height: 1;
+  transition: transform 0.3s;
+}
+
+.acc-header.open {
+  background: linear-gradient(90deg, var(--rose), var(--lavender));
+  color: #fff;
+}
+
+.acc-header.open::after {
+  transform: rotate(45deg);
+}
+
+.acc-body {
+  display: none;
+  padding: 14px 18px;
+  border-radius: 0 0 14px 14px;
+  background: #fffaf0;
+}
