@@ -249,3 +249,32 @@ input:focus {
   border-radius: 14px;
   background: #e6f7ef;
 }
+
+.area {
+  position: relative;
+  height: 200px;
+  margin-top: 12px;
+  overflow: hidden;
+  border-radius: 16px;
+  background-color: #fdf6ff;
+  background-image: radial-gradient(var(--pink) 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+.box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--rose), var(--peach));
+}
+
+#box2 {
+  background: linear-gradient(135deg, var(--lavender), var(--sky));
+}
+
+#box3 {
+  background: linear-gradient(135deg, var(--mint), var(--sky));
+}
