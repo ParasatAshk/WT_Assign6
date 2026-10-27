@@ -105,16 +105,3 @@ One `.animate()` call changes opacity, size and position at the same time.
 **Task 11. Accordion Menu**
 There are three sections with titles. When you click a title, the section opens with `.slideToggle()`. Other open sections close with `.slideUp()`. The open title changes color.
 
-## How to run
-
-**Option 1:** open the live site link above.
-
-**Option 2:** run it on your computer.
-1. Download or clone the repository:
-   ```
-   git clone https://github.com/ParasatAshk/WT_Assign6.git
-   ```
-2. Open `index.html` in a browser.
-3. You need internet, because jQuery is loaded from a CDN.
-
-To see the "jQuery is ready!" message, open the browser console (F12, then the Console tab).
